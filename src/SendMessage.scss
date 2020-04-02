@@ -14,11 +14,13 @@
     }
     .submit{
         width: 15%;
-        background: #FFE63B;
+        background: #ffcf5c;
         border:#FFE63B;
         cursor: pointer;
         font-size: 1.1rem;        
-        
+        &:hover{
+            background: #ffa26b;
+        }
 
     }
 

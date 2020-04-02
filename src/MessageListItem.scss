@@ -1,0 +1,28 @@
+.messageWrap {
+  width: 100%;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;  
+  align-items: flex-end;  
+
+  .message {
+    max-width: 80%;
+    text-align: right;
+    border: 1px solid #fdafbb;    
+    padding: 0.3rem;
+    background: #fbe4e8;
+    margin-right: 0.1rem;    
+    word-break: break-all;    
+  }
+  .remove{    
+    cursor:pointer;    
+    height: 16px;
+    font-size:13px;   
+    color:#666;
+    &:hover{
+      color:#000;
+    }
+
+  }
+}

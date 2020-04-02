@@ -1,26 +1,28 @@
-.MessageTemplate{
-    border:1px solid #222;
-    max-width: 525px;
-    width:100%;
-    margin: 3rem auto;
-    padding:0.5rem;
-    box-sizing: border-box;
-    background:#fff;
+.MessageTemplate {
+  max-width: 425px;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background: #fff;
+  margin: 3rem auto;
+  background: #f7f5f9;
+  .app-titbox {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 0.5rem;
 
-    .app-titbox{
-        border:1px solid red;
-        display:flex;
-        justify-content: flex-start;
-        align-items: center;
-        
-        .app-titimg{ 
-            width: 50px;
-            height: 50px;
-            border:1px solid blue;
-            border-radius: 50%;
-            overflow: hidden;
-            margin-right:1rem;
-        }
+    .app-titimg {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 1rem;
+
+      img {
+        width: 100%;
+      }
     }
-
+  }
 }
